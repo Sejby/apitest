@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf9d374a-3c25-46d8-9000-352fe76e3c10" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Tests/ApiServiceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/RouterFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Core/RouterFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Coin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Coin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Market.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Market.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/ApiService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/ApiService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/UI/Home/HomePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/UI/Api/ApiPresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/UI/Home/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/UI/Api/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/latte/latte" />
+      <path value="$PROJECT_DIR$/vendor/nette/application" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/vendor/nette/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/nette/caching" />
+      <path value="$PROJECT_DIR$/vendor/nette/component-model" />
+      <path value="$PROJECT_DIR$/vendor/nette/database" />
+      <path value="$PROJECT_DIR$/vendor/nette/di" />
+      <path value="$PROJECT_DIR$/vendor/nette/forms" />
+      <path value="$PROJECT_DIR$/vendor/nette/http" />
+      <path value="$PROJECT_DIR$/vendor/nette/mail" />
+      <path value="$PROJECT_DIR$/vendor/nette/neon" />
+      <path value="$PROJECT_DIR$/vendor/nette/php-generator" />
+      <path value="$PROJECT_DIR$/vendor/nette/robot-loader" />
+      <path value="$PROJECT_DIR$/vendor/nette/routing" />
+      <path value="$PROJECT_DIR$/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/vendor/nette/security" />
+      <path value="$PROJECT_DIR$/vendor/nette/tester" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/tracy/tracy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/thanks" />
+      <path value="$PROJECT_DIR$/vendor/contributte/guzzlette" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2kvrufdNlEybJSu52iVLiANuO1V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "PHPUnit.ApiServiceTest.executor": "Run",
+    "PHPUnit.ApiServiceTest.testFetchCoinsListHandlesException (1).executor": "Run",
+    "PHPUnit.ApiServiceTest.testFetchCoinsListHandlesException.executor": "Run",
+    "PHPUnit.ApiServiceTest.testFetchCoinsListReturnsArrayOfCoins.executor": "Run",
+    "PHPUnit.ApiServiceTest.testFetchCoinsListSuccessfully (1).executor": "Run",
+    "PHPUnit.ApiServiceTest.testFetchCoinsListSuccessfully.executor": "Run",
+    "PHPUnit.ApiServiceTest.testFetchCoinsListThrowsErrorWhileFetchingException.executor": "Run",
+    "PHPUnit.ApiServiceTest.testFetchMarketsReturnsArrayOfMarkets.executor": "Run",
+    "PHPUnit.ApiServiceTest.testFetchMarketsThrowsErrorWhileFetchingException.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.php.quality.tools.phpstan",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\apitest" />
+      <recent name="C:\xampp\htdocs\apitest\app\Models\Dtos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.ApiServiceTest.testFetchCoinsListHandlesException (1)">
+    <configuration name="ApiServiceTest.testFetchCoinsListHandlesException (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\ApiServiceTest" file="$PROJECT_DIR$/app/Tests/ApiServiceTest.php" method="testFetchCoinsListHandlesException" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiServiceTest.testFetchCoinsListHandlesException" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ApiServiceTest" file="$PROJECT_DIR$/app/Tests/ApiServiceTest.php" method="testFetchCoinsListHandlesException" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiServiceTest.testFetchCoinsListReturnsArrayOfCoins" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\ApiServiceTest" file="$PROJECT_DIR$/app/Tests/ApiServiceTest.php" method="testFetchCoinsListReturnsArrayOfCoins" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiServiceTest.testFetchCoinsListSuccessfully (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\ApiServiceTest" file="$PROJECT_DIR$/app/Tests/ApiServiceTest.php" method="testFetchCoinsListSuccessfully" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiServiceTest.testFetchCoinsListSuccessfully" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ApiServiceTest" file="$PROJECT_DIR$/app/Tests/ApiServiceTest.php" method="testFetchCoinsListSuccessfully" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.ApiServiceTest.testFetchCoinsListHandlesException (1)" />
+        <item itemvalue="PHPUnit.ApiServiceTest.testFetchCoinsListSuccessfully (1)" />
+        <item itemvalue="PHPUnit.ApiServiceTest.testFetchCoinsListSuccessfully" />
+        <item itemvalue="PHPUnit.ApiServiceTest.testFetchCoinsListHandlesException" />
+        <item itemvalue="PHPUnit.ApiServiceTest.testFetchCoinsListReturnsArrayOfCoins" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf9d374a-3c25-46d8-9000-352fe76e3c10" name="Changes" comment="" />
+      <created>1724175119785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724175119785</updated>
+      <workItem from="1724175121462" duration="12500000" />
+      <workItem from="1724189730723" duration="5000" />
+      <workItem from="1724189742916" duration="8059000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{block content}
+    <table>
+        <thead>
+        <tr>
+            <th>Název (ID)</th>
+            <th>Aktuální cena</th>
+            <th>Obrázek</th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $markets as $market}
+            <tr>
+                <td>{$market->getId()}</td>
+                <td>{$market->getCurrentPrice()} CZK</td>
+                <td><img src="{$market->getImage()}" alt="{$market->getId()} image"/></td>
+            </tr>
+        {/foreach}
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Symbol</th>
+            <th>Název</th>
+        </tr>
+        </thead>
+        <tbody>
+        {foreach $coins as $coin}
+            <tr>
+                <td>{$coin->getId()}</td>
+                <td>{$coin->getSymbol()}</td>
+                <td>{$coin->getName()}</td>
+            </tr>
+        {/foreach}
+        </tbody>
+    </table>
+{/block}
