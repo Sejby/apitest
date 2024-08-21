@@ -10,7 +10,7 @@
     - V případě vyhození vyjímky během fetchování, oznámí uživateli, že nastala chyba a podrobnější informace loguje.
     - Využil jsem knihovnu contributte/guzzlette, která má lepší integraci pro Nette
     - Informace o coinech a marketech zobrazí uživateli v šabloně default.latte
-    - Na aplikace jsem strávil celkově cca 6,5 hodiny
+    - Na aplikaci jsem strávil celkově cca 6,5 hodiny
 
 ## Tipy pro zlepšení
     - určitě doimplementovat testování (není to má silná stránka, projel jsem kód pouze přes statickou analýzu -> PHPStan)
